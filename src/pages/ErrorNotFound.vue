@@ -1,3 +1,11 @@
+<!----------------------------------------------------------------------------->
+<!-- -->
+<!--    Copyright (c) 2022 - 2024. -->
+<!--    Haixing Hu, Qubit Co. Ltd. -->
+<!-- -->
+<!--    All rights reserved. -->
+<!-- -->
+<!----------------------------------------------------------------------------->
 <template>
   <div class="fullscreen bg-blue text-white text-center q-pa-md flex flex-center">
     <div>
