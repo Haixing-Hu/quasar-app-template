@@ -1808,6 +1808,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@haixing_hu/common-api@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@haixing_hu/common-api@npm:1.0.0"
+  peerDependencies:
+    "@babel/runtime": ^7.25.1
+    "@haixing_hu/common-app": ^1.4.0
+    "@haixing_hu/common-decorator": ^3.4.1
+    "@haixing_hu/common-model": ^4.1.0
+    "@haixing_hu/common-ui": ^1.4.0
+    "@haixing_hu/common-util": ^5.1.0
+  checksum: 10c0/39a3ce127410955fc35528fbcf9029f572a1206e1ea663bfe22dbd709b5dce656cdf6c5191418220fb3c8a3f5ab812fa018db51699f296a9f275d50dd133598a
+  languageName: node
+  linkType: hard
+
 "@haixing_hu/common-app@npm:^1.4.0":
   version: 1.4.0
   resolution: "@haixing_hu/common-app@npm:1.4.0"
@@ -1842,6 +1856,21 @@ __metadata:
     "@haixing_hu/type-detect": ^1.1.0
     "@haixing_hu/typeinfo": ^3.0.0
   checksum: 10c0/27340685fa481c7d4c9338f31aad4b85c7e9eb8d4528046f991ed81acc12a0ea7b753b342e103d0baf3aa25b7d0fe278b67e40561b0c48b68598d90c70440ed1
+  languageName: node
+  linkType: hard
+
+"@haixing_hu/common-model@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "@haixing_hu/common-model@npm:4.1.0"
+  peerDependencies:
+    "@babel/runtime": ^7.25.1
+    "@haixing_hu/common-decorator": ^3.4.1
+    "@haixing_hu/common-normalizer": ^1.5.1
+    "@haixing_hu/common-util": ^5.1.0
+    "@haixing_hu/common-validator": ^4.4.0
+    "@haixing_hu/logging": ^1.3.3
+    dayjs: ^1.11.10
+  checksum: 10c0/1bb75a5fda8d5a81deb9651952db72131cf8e5b86817559a9cc8e54264d2205075c1728e908dc34ce709b0c6a4ca220995d8f36f23da83ef7663d780b501a0fd
   languageName: node
   linkType: hard
 
@@ -7233,8 +7262,10 @@ __metadata:
     "@babel/preset-typescript": "npm:^7.24.7"
     "@babel/runtime": "npm:^7.25.6"
     "@haixing_hu/clone": "npm:^1.11.1"
+    "@haixing_hu/common-api": "npm:^1.0.0"
     "@haixing_hu/common-app": "npm:^1.4.0"
     "@haixing_hu/common-decorator": "npm:^3.4.1"
+    "@haixing_hu/common-model": "npm:^4.1.0"
     "@haixing_hu/common-normalizer": "npm:^1.5.1"
     "@haixing_hu/common-ui": "npm:^1.4.0"
     "@haixing_hu/common-util": "npm:^5.1.0"
