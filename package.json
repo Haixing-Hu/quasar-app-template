@@ -1,6 +1,6 @@
 {
   "name": "quasar-app-template",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A Quasar Project",
   "productName": "Quasar App",
   "author": "Haixing Hu <starfish.hu@gmail.com>",
@@ -18,8 +18,8 @@
   "dependencies": {
     "@babel/runtime": "^7.25.6",
     "@haixing_hu/clone": "^1.11.1",
-    "@haixing_hu/common-api": "^1.0.0",
-    "@haixing_hu/common-app": "^1.4.0",
+    "@haixing_hu/common-api": "^1.0.1",
+    "@haixing_hu/common-app": "^1.4.1",
     "@haixing_hu/common-decorator": "^3.4.1",
     "@haixing_hu/common-model": "^4.1.0",
     "@haixing_hu/common-normalizer": "^1.5.1",
