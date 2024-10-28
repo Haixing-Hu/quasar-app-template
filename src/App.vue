@@ -14,7 +14,7 @@
 import { Component, toVue } from '@haixing_hu/vue3-class-component';
 import { Log, HasLogger } from '@haixing_hu/logging';
 import { loading } from '@haixing_hu/common-ui';
-import { config } from '@haixing_hu/common-app';
+import config from '@haixing_hu/config';
 
 @Component
 @HasLogger

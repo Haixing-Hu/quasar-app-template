@@ -6,7 +6,7 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import { Logger } from '@haixing_hu/logging';
+import Logger from '@haixing_hu/logging';
 import { confirm } from '@haixing_hu/common-ui';
 import QuasarConfirmImpl from 'src/utils/quasar-confirm-impl';
 

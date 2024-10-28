@@ -6,7 +6,7 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import { config } from '@haixing_hu/common-app';
+import config from '@haixing_hu/config';
 
 /**
  * 开发环境下动态载入vconsole，生产环境打包不会加载这个依赖

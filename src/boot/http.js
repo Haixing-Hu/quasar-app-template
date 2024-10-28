@@ -6,7 +6,7 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import { Logger } from '@haixing_hu/logging';
+import Logger from '@haixing_hu/logging';
 import { http } from '@haixing_hu/common-app';
 import useUserStore from 'src/stores/user';
 import getRouter from 'src/router';
