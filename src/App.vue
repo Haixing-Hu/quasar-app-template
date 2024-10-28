@@ -15,6 +15,7 @@ import { Component, toVue } from '@haixing_hu/vue3-class-component';
 import { Log, HasLogger } from '@haixing_hu/logging';
 import { loading } from '@haixing_hu/common-ui';
 import config from '@haixing_hu/config';
+import useUserStore from 'src/stores/user';
 
 @Component
 @HasLogger
@@ -29,6 +30,7 @@ class App {
       this.logger.debug('Disable the loading');
       loading.disable();
     }
+    const userStore = useUserStore();
   }
 }
 export default toVue(App);

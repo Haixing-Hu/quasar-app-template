@@ -1808,9 +1808,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@haixing_hu/common-app@npm:^1.5.0":
-  version: 1.5.0
-  resolution: "@haixing_hu/common-app@npm:1.5.0"
+"@haixing_hu/common-app@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "@haixing_hu/common-app@npm:1.6.0"
   peerDependencies:
     "@babel/runtime": ^7.23.6
     "@haixing_hu/common-ui": ^1.4.0
@@ -1822,7 +1822,7 @@ __metadata:
     "@haixing_hu/type-detect": ^1.1.0
     axios: ^1.7.7
     js-cookie: ^3.0.5
-  checksum: 10c0/862cb643838dd3d51e480eae6125489cb40f67cc9e9e76c9eb51ab88c0c5a87364a5289d19e0c85579593ffcac288bbebc29b6bb153aaf75286d3bb9c28d8edd
+  checksum: 10c0/f1f0303a3f109fbd2355816cb727eae4dda5f6d28c6136558fc957e101a6d4e164c9ec9d86d00a0032ff36b120107ed3ebc97eac1fd2c640c6588eaf8c448ac9
   languageName: node
   linkType: hard
 
@@ -7254,7 +7254,7 @@ __metadata:
     "@babel/preset-typescript": "npm:^7.24.7"
     "@babel/runtime": "npm:^7.25.6"
     "@haixing_hu/clone": "npm:^1.11.1"
-    "@haixing_hu/common-app": "npm:^1.5.0"
+    "@haixing_hu/common-app": "npm:^1.6.0"
     "@haixing_hu/common-decorator": "npm:^3.6.0"
     "@haixing_hu/common-normalizer": "npm:^1.6.0"
     "@haixing_hu/common-ui": "npm:^1.4.0"

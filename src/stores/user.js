@@ -6,10 +6,11 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
+import config from '@haixing_hu/config';
 import { toStore } from '@haixing_hu/pinia-decorator';
 import { BasicUserStore } from '@haixing_hu/common-app';
 
-// FIXME: Replace the following code with the real API.
+// FIXME: Replace the following code with the actual API object.
 const userAuthorizationApi = {};
 
 /**
@@ -19,7 +20,7 @@ const userAuthorizationApi = {};
  */
 class UserStore extends BasicUserStore {
   constructor() {
-    super(userAuthorizationApi);
+    super(userAuthorizationApi, config.get('app_code'));
   }
 }
 
