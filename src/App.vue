@@ -24,9 +24,9 @@ class App {
     this.logger.info('正在启动：%s v%s', config.app_name, config.app_version);
     this.logger.info('Debugging Model:', config.debug);
     this.logger.info('Node ENV:', config.node_env);
-    if (config.disable_loading) {
+    if (config.get('disable_loading', false)) {
       // disable loading
-      this.logger.debug('Disable the loading');
+      this.logger.info('Disable the loading');
       loading.disable();
     }
   }
