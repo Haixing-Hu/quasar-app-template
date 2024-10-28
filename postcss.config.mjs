@@ -1,10 +1,10 @@
 /* eslint-disable */
 // https://github.com/michael-ciniawsky/postcss-load-config
 
-const autoprefixer = require('autoprefixer');
-// const rtlcss = require('postcss-rtlcss');
+import autoprefixer from 'autoprefixer';
+// import rtlcss from 'postcss-rtlcss';
 
-module.exports = {
+export default {
   plugins: [
     // https://github.com/postcss/autoprefixer
     autoprefixer({
