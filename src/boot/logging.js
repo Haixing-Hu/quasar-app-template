@@ -21,7 +21,7 @@ function init() {
   Logger.setDefaultLevel(level);
   Logger.resetAllLevels();
   // 设置特定的日志记录器的日志级别
-  Logger.setLoggerLevel('request', 'INFO');
+  Logger.setLoggerLevel('http', 'INFO');
 }
 
 export default init;
