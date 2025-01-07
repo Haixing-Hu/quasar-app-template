@@ -6,7 +6,7 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import Logger from '@haixing_hu/logging';
+import Logger from '@qubit-ltd/logging';
 
 /**
  * 根据运行环境，配置日志级别。

@@ -8,7 +8,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 import { store } from 'quasar/wrappers';
 import { createPinia } from 'pinia';
-import { Logger } from '@haixing_hu/logging';
+import { Logger } from '@qubit-ltd/logging';
 
 /*
  * If not building with SSR mode, you can

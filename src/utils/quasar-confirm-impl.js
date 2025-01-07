@@ -7,7 +7,7 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 import { Dialog } from 'quasar';
-import { ConfirmImpl, getFontAwesomeDialogIcon } from '@haixing_hu/common-ui';
+import { ConfirmImpl, getFontAwesomeDialogIcon } from '@qubit-ltd/common-ui';
 
 /**
  * 基于Quasar框架实现的{@link ConfirmImpl}。

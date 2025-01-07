@@ -6,9 +6,9 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import Logger from '@haixing_hu/logging';
-import config from '@haixing_hu/config';
-import { alert } from '@haixing_hu/common-ui';
+import Logger from '@qubit-ltd/logging';
+import config from '@qubit-ltd/config';
+import { alert } from '@qubit-ltd/common-ui';
 import QuasarAlertImpl from 'src/utils/quasar-alert-impl';
 
 function init() {

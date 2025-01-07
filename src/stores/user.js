@@ -6,9 +6,9 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import config from '@haixing_hu/config';
-import { toStore } from '@haixing_hu/pinia-decorator';
-import { BasicUserStore } from '@haixing_hu/common-app';
+import config from '@qubit-ltd/config';
+import { toStore } from '@qubit-ltd/pinia-decorator';
+import { BasicUserStore } from '@qubit-ltd/common-app';
 
 // FIXME: Replace the following code with the actual API object.
 const userAuthorizationApi = {};

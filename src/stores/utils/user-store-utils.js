@@ -6,7 +6,7 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import { Logger } from '@haixing_hu/logging';
+import { Logger } from '@qubit-ltd/logging';
 import DEFAULT_AVATAR_FEMALE from 'assets/images/default_avatar_female.png';
 import DEFAULT_AVATAR_MALE from 'assets/images/default_avatar_male.png';
 

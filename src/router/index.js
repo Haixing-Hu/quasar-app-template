@@ -13,7 +13,7 @@ import {
   createWebHistory,
   createWebHashHistory,
 } from 'vue-router';
-import { Logger } from '@haixing_hu/logging';
+import { Logger } from '@qubit-ltd/logging';
 import routes from './routes';
 
 const logger = Logger.getLogger('vue-router');

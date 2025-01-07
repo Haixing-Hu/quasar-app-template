@@ -7,7 +7,7 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 import { Loading } from 'quasar';
-import { LoadingImpl } from '@haixing_hu/common-ui';
+import { LoadingImpl } from '@qubit-ltd/common-ui';
 
 /**
  * 基于Quasar框架实现的{@link LoadingImpl}。

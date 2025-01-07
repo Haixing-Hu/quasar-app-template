@@ -6,7 +6,7 @@
 /* eslint func-names: 0 */
 /* eslint global-require: 0 */
 import { configure } from 'quasar/wrappers';
-import babel from '@haixing_hu/vite-plugin-babel';
+import babel from '@qubit-ltd/vite-plugin-babel';
 import { nodePolyfills } from 'vite-plugin-node-polyfills';
 import generateFile from 'vite-plugin-generate-file';
 import getProcessEnv from './lib/get-process-env';

@@ -6,8 +6,8 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import Logger from '@haixing_hu/logging';
-import { http } from '@haixing_hu/common-app';
+import Logger from '@qubit-ltd/logging';
+import { http } from '@qubit-ltd/common-app';
 import useUserStore from 'src/stores/user';
 import getRouter from 'src/router';
 

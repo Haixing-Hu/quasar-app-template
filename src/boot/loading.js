@@ -6,8 +6,8 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import Logger from '@haixing_hu/logging';
-import { loading } from '@haixing_hu/common-ui';
+import Logger from '@qubit-ltd/logging';
+import { loading } from '@qubit-ltd/common-ui';
 import QuasarLoadingImpl from 'src/utils/quasar-loading-impl';
 
 function init() {

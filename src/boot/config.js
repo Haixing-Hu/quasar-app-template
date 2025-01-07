@@ -6,8 +6,8 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import Logger from '@haixing_hu/logging';
-import config from '@haixing_hu/config';
+import Logger from '@qubit-ltd/logging';
+import config from '@qubit-ltd/config';
 
 /**
  * 配置全局config对象，注入环境变量以及此应用特定的配置参数。

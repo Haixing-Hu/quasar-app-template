@@ -7,7 +7,7 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 import { Dialog } from 'quasar';
-import { AlertImpl, getFontAwesomeDialogIcon } from '@haixing_hu/common-ui';
+import { AlertImpl, getFontAwesomeDialogIcon } from '@qubit-ltd/common-ui';
 
 /**
  * 基于Quasar框架实现的{@link AlertImpl}。
