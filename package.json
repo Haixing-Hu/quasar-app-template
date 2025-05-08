@@ -7,13 +7,20 @@
   "private": true,
   "scripts": {
     "clean": "rm -rvf dist doc",
-    "dev": "quasar dev",
-    "build": "cross-env NODE_ENV=production quasar build",
+    "dev": "cross-env NODE_ENV=development quasar dev --debug",
+    "dev:stage": "cross-env NODE_ENV=stage quasar dev --debug",
+    "dev:local": "cross-env NODE_ENV=local quasar dev --debug",
+    "dev:electron": "cross-env NODE_ENV=development quasar dev -m electron --debug",
+    "build:prod": "cross-env NODE_ENV=production quasar build",
+    "build:stage": "cross-env NODE_ENV=stage quasar build --debug",
     "build:dev": "cross-env NODE_ENV=development quasar build --debug",
+    "build-electron:prod": "cross-env NODE_ENV=production quasar build -m electron",
+    "build-electron:stage": "cross-env NODE_ENV=stage quasar build -m electron",
+    "build-electron:dev": "cross-env NODE_ENV=development quasar build -m electron",
+    "build-electron:local": "cross-env NODE_ENV=local quasar build -m electron",
     "test": "jest --passWithNoTests",
     "lint": "eslint ./src",
-    "doc": "jsdoc -c jsdoc.json",
-    "es5": "check-es-version -e 5 -s true"
+    "doc": "jsdoc -c jsdoc.json"
   },
   "dependencies": {
     "@babel/runtime": "^7.27.1",
@@ -63,6 +70,7 @@
     "core-js": "3.42.0",
     "cross-env": "^7.0.3",
     "dotenv-flow": "^4.1.0",
+    "electron": "^36.2.0",
     "eslint": "^8.57.1",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-vue": "^9.33.0",
