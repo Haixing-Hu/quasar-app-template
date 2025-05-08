@@ -48,6 +48,8 @@ export default configure((ctx) => ({
     'material-icons', // optional, you are not bound to it
     'material-icons-outlined',
     'material-symbols-outlined',
+    'material-symbols-rounded',
+    'bootstrap-icons',
   ],
 
   // 可注入 HTML 文件的变量

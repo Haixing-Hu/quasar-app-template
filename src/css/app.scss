@@ -1,10 +1,30 @@
-////////////////////////////////////////////////////////////////////////////////
-//
-//    Copyright (c) 2022 - 2024.
-//    Haixing Hu, Qubit Co. Ltd.
-//
-//    All rights reserved.
-//
-////////////////////////////////////////////////////////////////////////////////
+/*!******************************************************************************
+ *
+ *    Copyright (c) 2022 - 2025.
+ *    Haixing Hu, Qubit Co. Ltd.
+ *
+ *    All rights reserved.
+ *
+ ******************************************************************************/
 
 // app global css in SCSS form
+//@import './icon-fonts/material-icons.css';
+//@import './icon-fonts/material-symbols-outlined.css';
+
+.q-item__section--avatar {
+   min-width: 0;
+}
+
+.q-expansion-item__content {
+   padding-left: 32px;
+}
+
+//.q-icon {
+//  text-indent: -9999px; /* 隐藏内容 */
+//  width: 1em; /* 保留占位宽度 */
+//  height: 1em; /* 保留占位高度 */
+//}
+
+.disabled, [disabled]:not([disabled=false]) {
+  opacity: .3 !important;
+}

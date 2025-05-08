@@ -1,0 +1,156 @@
+[
+  {
+    "path": "",
+    "name": "Dashboard",
+    "icon": "bi-house",
+    "title": "首页",
+    "component": "pages/Dashboard.vue"
+  },
+  {
+    "path": "first",
+    "name": "First",
+    "title": "一级菜单",
+    "icon": "bi-file-earmark-check",
+    "children": [
+      {
+        "path": "first-first",
+        "name": "FirstFirst",
+        "title": "1.1级菜单",
+        "icon": "bi-grid",
+        "component": "pages/first/FirstFirst.vue"
+      },
+      {
+        "path": "first-second",
+        "name": "FirstSecond",
+        "title": "1.2级菜单",
+        "icon": "bi-cloud-arrow-up",
+        "component": "pages/first/FirstSecond.vue"
+      },
+      {
+        "path": "first-third",
+        "name": "FirstThird",
+        "title": "1.3级菜单",
+        "icon": "bi-list-ul",
+        "component": "pages/first/FirstThird.vue"
+      }
+    ]
+  },
+  {
+    "path": "second",
+    "name": "Second",
+    "title": "二级菜单",
+    "icon": "bi-journals",
+    "children": [
+      {
+        "path": "second-first",
+        "name": "SecondFirst",
+        "title": "2.1级菜单",
+        "icon": "bi-grid",
+        "component": "pages/second/SecondFirst.vue"
+      },
+      {
+        "path": "upload",
+        "name": "StandardUpload",
+        "title": "2.2级菜单",
+        "icon": "bi-cloud-arrow-up",
+        "component": "pages/second/SecondSecond.vue"
+      },
+      {
+        "path": "list",
+        "name": "StandardList",
+        "title": "2.3级菜单",
+        "icon": "bi-list-ul",
+        "component": "pages/second/SecondThird.vue"
+      }
+    ]
+  },
+  {
+    "path": "system",
+    "name": "System",
+    "title": "系统管理",
+    "icon": "bi-gear",
+    "requiresAdmin": true,
+    "children": [
+      {
+        "path": "category",
+        "name": "CategoryManagement",
+        "title": "类别管理",
+        "icon": "bi-tags",
+        "component": "pages/system/Category.vue",
+        "requiresAdmin": true
+      },
+      {
+        "path": "organization",
+        "name": "OrganizationManagement",
+        "title": "机构管理",
+        "icon": "bi-building",
+        "component": "pages/system/Organization.vue",
+        "requiresAdmin": true
+      },
+      {
+        "path": "user",
+        "name": "UserManagement",
+        "title": "用户管理",
+        "icon": "bi-person",
+        "component": "pages/system/User.vue",
+        "requiresAdmin": true
+      },
+      {
+        "path": "role",
+        "name": "RoleManagement",
+        "title": "角色管理",
+        "icon": "bi-people",
+        "component": "pages/system/Role.vue",
+        "requiresAdmin": true
+      },
+      {
+        "path": "task",
+        "name": "TaskManagement",
+        "title": "任务管理",
+        "icon": "bi-list-task",
+        "component": "pages/system/Task.vue",
+        "requiresAdmin": true
+      },
+      {
+        "path": "trash",
+        "name": "TrashCan",
+        "title": "回收站",
+        "icon": "bi-trash",
+        "component": "pages/system/Trash.vue",
+        "requiresAdmin": true
+      },
+      {
+        "path": "setting",
+        "name": "SystemSetting",
+        "title": "系统设置",
+        "icon": "bi-sliders",
+        "component": "pages/system/Setting.vue",
+        "requiresAdmin": true
+      }
+    ]
+  },
+  {
+    "path": "warranty/detail/:id",
+    "name": "WarrantyDetail",
+    "title": "查看质量文档详情",
+    "component": "pages/warranty/Detail.vue",
+    "hiddenInMenu": true,
+    "requiresAuth": true
+  },
+  {
+    "path": "warranty/review/:id",
+    "name": "WarrantyReview",
+    "title": "审核质量文档",
+    "component": "pages/warranty/Review.vue",
+    "hiddenInMenu": true,
+    "requiresAuth": true
+  },
+  {
+    "path": "warranty/validate/:id",
+    "name": "WarrantyValidate",
+    "title": "校验质量文档",
+    "component": "pages/warranty/Validate.vue",
+    "hiddenInMenu": true,
+    "requiresAuth": true
+  }
+]
