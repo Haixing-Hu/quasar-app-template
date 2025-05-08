@@ -6,14 +6,15 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import Logger from '@qubit-ltd/logging';
 import { loading } from '@qubit-ltd/common-ui';
-import QuasarLoadingImpl from 'src/utils/quasar-loading-impl';
+import { QuasarLoadingImpl } from '@qubit-ltd/common-ui-quasar';
+import Logger from '@qubit-ltd/logging';
+import { Loading } from 'quasar';
 
 function init() {
   const logger = Logger.getLogger('boot');
   logger.info('Initialize global loading layer ...');
-  loading.setImpl(new QuasarLoadingImpl());
+  loading.setImpl(new QuasarLoadingImpl(Loading));
 }
 
 export default init;

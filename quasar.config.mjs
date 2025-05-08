@@ -3,14 +3,14 @@
 // Configuration for your app
 // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js
 
+import babel from '@qubit-ltd/vite-plugin-babel';
 /* eslint func-names: 0 */
 /* eslint global-require: 0 */
 import { configure } from 'quasar/wrappers';
-import babel from '@qubit-ltd/vite-plugin-babel';
-import { nodePolyfills } from 'vite-plugin-node-polyfills';
 import generateFile from 'vite-plugin-generate-file';
-import getProcessEnv from './lib/get-process-env';
+import { nodePolyfills } from 'vite-plugin-node-polyfills';
 import appInfo from './lib/app-info';
+import getProcessEnv from './lib/get-process-env';
 
 const processEnv = getProcessEnv(appInfo);
 
@@ -32,6 +32,7 @@ export default configure((ctx) => ({
     'loading',        // 配置loading遮盖层
     'alert',          // 配置alert对话框
     'confirm',        // 配置confirm对话框
+    'notify',         // 配置notify消息通知
     'http',           // 配置http请求对象
     'vconsole',       // 配置 vconsole 调试工具
   ],
@@ -131,6 +132,7 @@ export default configure((ctx) => ({
     plugins: [
       'Dialog',
       'Loading',
+      'Notify',
     ],
   },
 

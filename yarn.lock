@@ -2196,6 +2196,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@qubit-ltd/common-ui-quasar@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@qubit-ltd/common-ui-quasar@npm:1.0.3"
+  peerDependencies:
+    "@babel/runtime": ^7.26.0
+    "@qubit-ltd/common-ui": ^1.14.2
+    quasar: ^2.17.6
+    vue: ^3.5.13
+  checksum: 10c0/cf17f5e277c8edf660d6f32a21b6ce24a0ca2fbe43a30f7a90e50fd0fdff1cfa420f40933b9eeabbb2e12e3f75d83dc01420532a4ae1c6025af6d158c975abe6
+  languageName: node
+  linkType: hard
+
 "@qubit-ltd/common-ui@npm:^1.14.2":
   version: 1.14.2
   resolution: "@qubit-ltd/common-ui@npm:1.14.2"
@@ -7791,6 +7803,7 @@ __metadata:
     "@qubit-ltd/common-model": "npm:^4.18.2"
     "@qubit-ltd/common-normalizer": "npm:^1.8.2"
     "@qubit-ltd/common-ui": "npm:^1.14.2"
+    "@qubit-ltd/common-ui-quasar": "npm:^1.0.3"
     "@qubit-ltd/common-util": "npm:^5.4.1"
     "@qubit-ltd/common-validation-rule": "npm:^1.5.0"
     "@qubit-ltd/common-validator": "npm:^4.9.1"
